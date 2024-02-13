@@ -1,0 +1,82 @@
+@media screen and (min-width: 300px) and (max-width: 1200px){
+    #ubicacion{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width: 991px) {
+    .descripcion{
+        margin-left: 50px;
+        width: 700px;
+        height: auto;
+    }
+    
+}
+@media screen and (min-width:1300px ) and (max-width: 2200px) {
+    #cajaderecha{
+       margin-left: 150px;
+        height: auto;
+        width: 23rem;
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width:767px) {
+    #cajaderecha {
+        margin-left: 25px;
+    }
+    
+}
+
+@media screen and (min-width:300px) and (max-width: 1000px) {
+    .footerlogo{
+        display: none;
+    }  
+}
+@media screen and (min-width: 100px) and (max-width: 700px)  {
+    #carrito{
+        display: none;
+    }
+    
+ }
+ @media screen and (min-width: 900px) and (max-width: 2000px) {
+    #listacarrito{
+        display: none;
+    }
+    
+ } 
+header{
+    background-color: #504436;
+}
+.logo{
+    border-radius: 50%;
+}
+.footerlogo{
+    border-radius: 50%;
+}
+main{
+    background-color: rgb(231, 227, 201);
+}
+#cajaderecha{
+    height: auto;
+    width: 23rem;
+}
+footer{
+    background-color: #504436;
+}
+#test{
+    width: auto;
+    height: 90px;
+    background-color: rgb(231, 227, 201);
+    text-align: center;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+}
+h1{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
