@@ -44,6 +44,19 @@
     }
     
  } 
+@media screen and (min-width: 431px) and (max-width:2000px) {
+    #carouselExample{
+        display: none;
+    }
+    
+}
+
+
+@media screen  and (min-width:0px) and (max-width: 430px) {
+    .test{
+        display: none;
+    }
+}
 header{
     background-color: #504436;
 }
@@ -80,3 +93,5 @@ a{
     color: white;
     font-weight: bold;
 }
+
+
