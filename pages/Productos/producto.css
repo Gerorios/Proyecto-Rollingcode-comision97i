@@ -38,7 +38,7 @@
     }
     
  }
- @media screen and (min-width: 900px) and (max-width: 2000px) {
+ @media screen and (min-width: 913px) and (max-width: 2000px) {
     #listacarrito{
         display: none;
     }
@@ -64,7 +64,7 @@
 }
 @media screen and (min-width:0px) and (max-width: 280px) {
     .descripcion{
-        margin-right: 100px;
+        margin-right: 115px;
     }
     
 }
