@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywoords" content="">
+    <meta name="author" content="Gero rios">
+    <meta name="description" content="">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moirai+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/82f0997eec.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="/assets/logo/20240119_130229_00002.png" type="image/x-icon">
+    <link rel="stylesheet" href="Musculsoa.css">
+    <title>ProyectoFeria Americana</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div><a href="/home.html"><img src="/assets/logo/20240119_130229_0000.png" alt=""
+        width="80"
+        class="logo"
+        ></a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="m-2 d-flex">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 20px;">
+                    <li class="nav-item">
+                      <a class="nav-link active text-light" aria-current="page" href="#"
+                        >Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle text-light"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Categorias
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/pages/Categorias/remeras.html">Ropa deportivas</a></li>
+                        <li><a class="dropdown-item" href="/pages/Categorias/categoria.html">Zapatillas</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Articulos usados</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item" id="listacarrito">
+                      <a class="nav-link text-light" href="#">Ir al carrito</a>
+                    </li>
+                  </ul>
+                <div> 
+                  <form class="d-flex m-1" role="search";>
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Buscar producto"
+                        aria-label="Search"
+                
+                      />
+                      <button class="btn btn-light" type="submit">
+                      <span style="font-size: 20px;">Buscar</span>
+                      </button>
+                    </form>
+               </div>
+            </div>
+        </div>
+        <div id="ubicacion">
+          <form class="d-flex m-1" role="search" style="font-size: 20px;">
+            <select name="" id="">
+              <option value="">Enviar a...</option>
+              <option value="">Buenos Aires</option>
+              <option value="">Tucuman</option>
+              <option value="">Salta</option>
+              <option value="">Jujuy</option>
+              <option value="">Entre rios</option>
+              <option value="">Cordoba</option> 
+              <option value="">Santiago del Estero</option>
+              <option value="">Catamarca</option>
+              <option value="">Rosario</option>
+            </select>
+          </form>
+        </div>
+          <div class="m-1" id="carrito">
+             <a href=""><i class="fa-solid fa-cart-shopping fa-2xl m-2" style="color: #fffcfc;"></i></a>
+          </div>
+      </div>
+    </nav>
+  </header>
+    <main>
+      <div class="p-2">
+        <a href="/pages/Categorias/remeras.html"><button class="btn btn-light" type="button">Volver atras</button></a>
+       </div>
+        <div class="container-fluid">
+          <div id="test" class="flex-wrap">
+            <h1>Nike Sport Wear</h1>
+          </div>
+
+        <!--Carusel para dispositivos-->
+        
+          <div id="carouselExample" class="carousel slide r">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/Ropa deportiva/nikesportwear.png" class="d-block w-100 rounded-3" alt="...">
+              </div>
+          <div class="carousel-item">
+          <img src="/assets/img/Ropa deportiva/Producto2/foto1.png" class="d-block w-100 rounded-3" alt="...">
+          </div>
+         <div class="carousel-item">
+          <img src="/assets/img//Ropa deportiva/Producto2/foto2.png" class="d-block w-100 rounded-3" alt="...">
+         </div>
+         <div class="carousel-item">
+         <img src="/assets/img/Ropa deportiva/Producto2/foto3.png" class="d-block w-100 rounded-3" alt="...">
+         </div>
+         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+         <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+         </button>
+         </div>
+         <!--Imagenes del producto para el dispositvo en pantalla LG-->
+          <div class="row">
+            <div class="col col-sm-12 col-md-4 col-lg-3 m-4 test">
+              <div id="caja1" style="width: 20rem;" class="m-3 test">
+                <img src="/assets/img/Ropa deportiva/nikesportwear.png" alt="" width="340" class="rounded-3">
+              </div>
+              <div id="caja2" style="width: 20rem;" class="m-3 test">
+                <img src="/assets/img/Ropa deportiva/Producto2/foto1.png" alt="" width="340" class="rounded-3">
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 m-4 test">
+              <div id="caja3" style="width: 20rem;" class="m-3 test">
+                <img src="/assets/img/Ropa deportiva/Producto2/foto2.png" alt="" width="340" class="rounded-3">
+              </div>
+              <div id="caja4" style="width: 20rem;" class="m-3 test">
+                <img src="/assets/img/Ropa deportiva/Producto2/foto3.png" alt="" width="340" class="rounded-3">
+              </div>
+            </div>
+            <div class="col col-sm-12 col-md-4 col-lg-3 p-0 d-flex">
+              <div id="cajaderecha" class="m-4">
+                <div class="descripcion">
+                  <p class="m-3" style="width: auto; font-size: 20px;">Busca la comodidad con esta prenda relajada. Suave en la parte exterior con bucles sin cepillar en el interior, este buzo de French Terry de media densidad es transpirable y lo suficientemente cómoda para usarla todo el año, sin importar la temperatura. Póntela y muévete.
+                    <br>
+                    <br>
+                     <span style="color: #000000; font-size: 22px;">Datos del producto:</span>
+                     <br>
+                     •Puños y dobladillo de tela de canalé
+                     <br>
+                     •80% algodón, 20% poliéster
+                     <br>
+                     •Lavar a máquina
+                     <br>
+                     •Producto importado 
+                    </p>
+                </div>
+                <div class="compra">
+                  <span class="andes-money-amount andes-money-amount--cents-superscript" style="font-size:55px" role="img" aria-label="139999 pesos" aria-roledescription="Precio"><span class="andes-money-amount__currency-symbol" aria-hidden="true">$</span><span class="andes-money-amount__fraction" aria-hidden="true">99.999</span></span>
+                  <div>
+                    <a href=""><button class="btn btn-success" type="button" style="width: 150px; height: 50px;">Comprar Ya</button></a>
+                  </div>
+                  <hr>
+                  <div>
+                    <form action="">
+                      <label for="preguntas">
+                        <input type="text" id="preguntas" placeholder="Preguntas al vendedor..">
+                        <input type="submit" value="enviar">
+                      </label>
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+          </div>
+        </div>
+    </main>
+    <footer class="text-light py-2">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 d-flex justify-content-center mt-3">
+          <div>
+            <a href="/home.html"
+              ><img
+                src="/assets/logo/logo.jpg"
+                width="100"
+                alt="logo"
+                class="footerlogo"
+            /></a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 text-center mt-4">
+          <a href="https://www.facebook.com/Disney" target="_blank"><i class="fa-brands fa-facebook fa-2xl m-4" style="color: #fffcfc;"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2xl m-4" style="color: #fffcfc;"></i></a>
+          <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter fa-2xl m-4" style="color: #fffcfc;"></i></a>
+          <br>
+          <span>&copy;Derechos reservados</span>
+        </div>
+        <div class="col-sm-12 col-md-4 text-center mt-3" id="redes">
+         <a href=""><h6>Contactanos</h6> </a>
+         <a href=""><h6>Privacidadad Y Legales</h6></a>
+         <a href=""><h6>Acerca de Nosotros</h6></a> 
+         <a href=""><h6>Detalles</h6></a> 
+          
+          
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script> 
+</body>
+</html>
